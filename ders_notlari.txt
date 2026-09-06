@@ -1,0 +1,15 @@
+Bilgisayar Mühendisliği Ders Notları
+
+1. Bilgisayar Mimarisi ve Mano Makinesi:
+Mano Makinesi, M. Morris Mano tarafından tasarlanmış temel bir bilgisayar mimarisi modelidir. 
+16-bitlik bir accumulator (AC) yazmacına sahiptir. Bellek birimi 4096 kelimeden oluşur ve her kelime 16 bit genişliğindedir. 
+Komut formatı mod biti (I), işlem kodu (opcode) ve bellek adresinden oluşur.
+
+2. İşletim Sistemleri ve PCB:
+Process Control Block (PCB), işletim sistemlerinin süreç yönetimi için kullandığı en temel veri yapısıdır.
+PCB içerisinde Process ID (PID), Process State (Süreç Durumu), Program Counter (PC), CPU yazmaçları ve bellek yönetimi bilgileri yer alır.
+Süreçler arası geçiş (context switch) yapıldığında mevcut sürecin durumu PCB'ye kaydedilir.
+
+3. Sayı Teorisi ve RSA Kriptografi:
+RSA algoritması asimetrik bir şifreleme yöntemidir ve güvenliğini büyük asal sayıların çarpımını çarpanlarına ayırmanın zorluğundan alır.
+Modüler aritmetik ve Euler'in Totient fonksiyonu (Phi) RSA anahtar üretiminde kritik rol oynar.
